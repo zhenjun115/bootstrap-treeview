@@ -333,7 +333,7 @@
 
 	Tree.prototype._triggerEvent = function (event, data, options) {
 		if (options && !options.silent) {
-			this.$element.trigger(event, $.extend(true, {}, data));
+			this.$element.trigger( event, data );
 		}
 	}
 
